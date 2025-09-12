@@ -24,7 +24,7 @@ my_list.extend(numbers)
 print("Extended list: ", my_list)
 
 # Remove the last element from my_list.
-del my_list[7]
+my_list.pop()
 print(my_list)
 
 # Sort my_list in ascending order.
@@ -32,4 +32,4 @@ my_list.sort()
 print(my_list)
 
 # Find and print the index of the value 30 in my_list.
-print(my_list[3])
+print(my_list.index(30))
